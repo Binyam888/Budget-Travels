@@ -52,15 +52,18 @@ const Navbar = () => {
 
   return (
     <navbar className="flex justify-center align-middle mb-[100px]">
-      <div className={navClass} >
-
+      <div className={navClass}>
         {/*   {nav logo} */}
 
         <div className="nav-logo  px-3 py-1 rounded-full w-[50px] h-[50px]  ">
           <h1 className="text-[26px]   cursor-pointer text-white">
             {" "}
             <Link to="Home" smooth={true} offset={-60} duration={800}>
-              <img src={icon} className="h-[50px] object-cover w-[100px] md:h-[90]" alt="" />
+              <img
+                src={icon}
+                className="h-[50px] object-cover w-[100px] md:h-[90]"
+                alt=""
+              />
             </Link>{" "}
           </h1>
         </div>

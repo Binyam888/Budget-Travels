@@ -5,12 +5,23 @@ import Mysore from "../../assets/Mysore_Palace.jpg";
 import Kashmir from "../../assets/kashmir.jpg";
 import hampi from "../../assets/Hampi.jpg";
 import guruduar from "../../assets/guruduar.jpg";
+import eifhil from "../../assets/eifhil.jpg";
+import Brasil from "../../assets/Brasil.jpg";
+import Brasil_1 from "../../assets/Brasil-1.jpg";
+import london from "../../assets/london.jpg";
+import bgImag from "../../assets/bg-dg.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 const Destinations = () => {
   useEffect(() => {
     Aos.init({ duration: 900 });
   }, []);
+
+  const bg_img = {
+    backgroundImage: `url(${bgImag})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  };
   return (
     <div
       className="Destination mt-[20px] "
@@ -58,6 +69,96 @@ const Destinations = () => {
           price="600"
           text="Gurudwaras typically house the Sikh holy scripture, the Guru Granth Sahib, which is treated with great reverence and respect. Sikhs gather at Gurudwaras to listen to hymns and teachings from the Guru Granth Sahib, participate in community service (seva), and share in communal meals called langar, which are open to all regardless of religion, caste, or creed."
         />
+      </div>
+
+      <div
+        style={bg_img}
+        className="featured flex flex-col justify-center mt-[50px] lg:h-[90vh]  "
+      >
+        <div className="headings text-center">
+          <p className="text-red-700 font-bold text-[20px]">Feautred place</p>
+          <h1 className="text-2xl text-black font-bold">
+            Beautiful places Around The World
+          </h1>
+        </div>
+        <div
+          className="images mt-[30px]  md:flex flex-col lg:flex lg:flex-row justify-center "
+          data-aos="fade-right"
+        >
+          <div className="img1 relative m-[10px] rounded-md flex justify-center overflow-hidden">
+            <div className="img ">
+              <img className="h-[423px] w-[300px]" src={eifhil} alt="" />
+            </div>
+
+            <div className=" absolute top-0 bg-gradient-to-b from-transparent via-transparent h-[423px] w-[300px] to-black">
+              <div className="placename flex justify-end p-2">
+                <button className="bg-white py-1 text-black font-bold px-5 rounded-md shadow-md ">
+                  {" "}
+                  2 Packages
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="img2-container  flex flex-col   ">
+            <div
+              className="img2-1 relative flex justify-center rounded-md overflow-hidden m-[10px]"
+              data-aos="fade-right"
+            >
+              <div className="img ">
+                <img
+                  className="h-[200px] w-[300px] object-cover "
+                  src={Brasil}
+                  alt=""
+                />
+              </div>
+              <div className="absolute top-0 bg-gradient-to-b from-transparent via-transparent h-[200px] w-[300px] to-black">
+                <div className="placename flex justify-end p-2">
+                  <button className="bg-white py-1 text-black font-bold px-5 rounded-md shadow-md ">
+                    {" "}
+                    8 Packages
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              className="img2-3 relative flex justify-center rounded-md overflow-hidden m-[10px]"
+              data-aos="fade-right"
+            >
+              <div className="img ">
+                <img
+                  className="h-[200px] w-[300px] object-cover"
+                  src={Brasil_1}
+                  alt=""
+                />
+              </div>
+              <div className=" absolute top-0 bg-gradient-to-b from-transparent via-transparent h-[200px] w-[300px] to-black">
+                <div className="placename flex justify-end p-2">
+                  <button className="bg-white py-1 text-black font-bold px-5 rounded-md shadow-md ">
+                    {" "}
+                    3 Packages
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="img3 relative rounded-md flex justify-center overflow-hidden m-[10px]"
+            data-aos="fade-right"
+          >
+            <div className="img ">
+              <img className="h-[423px] w-[300px]" src={london} alt="" />
+            </div>
+
+            <div className=" absolute top-0 bg-gradient-to-b from-transparent via-transparent h-[423px] w-[300px] to-black">
+              <div className="placename flex justify-end p-2">
+                <button className="bg-white py-1 text-black font-bold px-5 rounded-md shadow-md ">
+                  {" "}
+                  3 Packages
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
