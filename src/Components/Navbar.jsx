@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import icon from "../assets/main_logo.png";
+import icon from "../assets/logo.png";
 import { Link } from "react-scroll";
 
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
@@ -52,15 +52,15 @@ const Navbar = () => {
 
   return (
     <navbar className="flex justify-center align-middle mb-[100px]">
-      <div className={navClass}>
+      <div className={navClass} id="Home">
 
         {/*   {nav logo} */}
 
-        <div className="nav-logo  px-3 py-1 rounded-full w-[50px] h-[50px] md:hidden">
-          <h1 className="text-[26px]  md:mt-2 cursor-pointer text-white">
+        <div className="nav-logo  px-3 py-1 rounded-full w-[50px] h-[50px]  ">
+          <h1 className="text-[26px]   cursor-pointer text-white">
             {" "}
-            <Link to="Home" smooth={true} offset={-20} duration={500}>
-              <img src={icon} className="h-[50px] object-cover w-[100px]" alt="" />
+            <Link to="Header" smooth={true} offset={-60} duration={500}>
+              <img src={icon} className="h-[50px] object-cover w-[100px] md:h-[90]" alt="" />
             </Link>{" "}
           </h1>
         </div>
@@ -97,7 +97,7 @@ const Navbar = () => {
         )}
 
         <div
-          className={`navlist-desktop border-b-4 border-neutral-300 mt-[10px] ${
+          className={`navlist-desktop border-b-4 border-neutral-300 p-[10px] ${
             scrolling && "border-none"
           }`}
         >
