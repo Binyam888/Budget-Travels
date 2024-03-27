@@ -6,7 +6,7 @@ import Contact from './Contact'
 
 const Hero = () => {
   return (
-    <div>
+    <div >
         <Destinations/>
         <Services/>
         <Testimonials/>

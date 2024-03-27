@@ -9,13 +9,13 @@ const Card = (props) => {
     <div className='card bg-neutral-300 rounded-xl shadow-lg shadow-neutral-400 my-[20px] ml-[20px]'>
         <div className="parent relative">
         <div className="card-img   rounded-xl overflow-hidden shadow-md shadow-black ">
-            <img src={pic} alt="img" className='h-[180px] w-[280px]  object-cover' />
+            <img src={pic} alt="img" className='h-[180px] w-[285px]  object-cover' />
         </div>
-        <div className="Child absolute h-[180px] w-[280px] bg-gradient bg-gradient-to-b from-transparent via-transparent to-black top-0 rounded-xl">
+        <div className="Child absolute h-[180px] w-[285px] bg-gradient bg-gradient-to-b from-transparent via-transparent to-black top-0 rounded-xl">
 
         </div>
         </div>
-        <div className="card-text flex justify-between mt-[10px] pb-[10px] ml-[10px]">
+        <div className="card-text flex    justify-between mt-[10px] pb-[10px] ml-[10px]">
             <div className="text flex flex-col justify-start text-black ">
             <h1 className='text-[13px] font-sans'>{place}</h1>
             <div className="days flex text-black">
@@ -30,6 +30,13 @@ const Card = (props) => {
             </div>
             
         </div>
+        <div className="discriptions p-3 ">
+              <p className='w-[260px] text-[10px] text-neutral-700'>{text}</p>
+            </div>
+            <div className="button py-2  flex justify-end align-bottom ">
+              <button className='bg-black p-2 px-5 rounded-md shadow-md shadow-neutral-500 scale-75 '>Book Now</button>
+            </div>
+            
     </div>
   )
 }
