@@ -3,7 +3,7 @@ import dummy from "../../assets/person-1.png";
 import star from '../../assets/star.svg'
 const Testmon = (props) => {
   return (
-    <div className="container p-[15px]  w-[340px]  bg-white rounded-lg my-[21px] shadow-md shadow-neutral-400 md:ml-[20px]">
+    <div className="container p-[15px]  w-[340px]  bg-white rounded-lg my-[21px] shadow-md shadow-neutral-400 md:ml-[20px] ml-[10px]">
       <div className="nameAndlogo flex px-[5px]">
         <img src={dummy} alt="avatar" />
         <h1 className="ml-[8px] mt-[15px] text-black">dumyname</h1>
