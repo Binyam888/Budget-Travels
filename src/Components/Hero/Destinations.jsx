@@ -76,7 +76,7 @@ const Destinations = () => {
         className="featured flex flex-col justify-center mt-[50px] lg:h-[90vh]  "
       >
         <div className="headings text-center">
-          <p className="text-red-700 font-bold text-[20px]">Feautred place</p>
+          <p className="text-red-700 font-bold text-[20px]">Feautred places</p>
           <h1 className="text-2xl text-black font-bold">
             Beautiful places Around The World
           </h1>
