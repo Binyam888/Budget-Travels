@@ -22,7 +22,7 @@ const Contact = () => {
     >
       <div className="heading  flex justify-center mb-[20px]">
         <h1 className="text-3xl text-green-700 font-bold lg:text-4xl lg:ml-[230px]">
-          Contact us
+          CONTACT US
         </h1>
       </div>
       <div className="contact-section flex  justify-center lg:flex lg:justify-aroun">
