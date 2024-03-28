@@ -78,7 +78,7 @@ const Destinations = () => {
         <div className="headings text-center">
           <p className="text-red-700 font-bold text-[20px]">Featured places</p>
           <h1 className="text-2xl text-black font-bold">
-            Beautiful places Around The World
+            Beautiful Places Around The World
           </h1>
         </div>
         <div
