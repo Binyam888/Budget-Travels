@@ -91,11 +91,15 @@ const Destinations = () => {
             </div>
 
             <div className=" absolute top-0 bg-gradient-to-b from-transparent via-transparent h-[423px] w-[300px] to-black">
-              <div className="placename flex justify-end p-2">
-                <button className="bg-white py-1 text-black font-bold px-5 rounded-md shadow-md ">
+              <div className="placename flex flex-col justify-end p-2">
+                <button className="bg-white py-1 text-black font-bold px-5 rounded-md shadow-md w-[130px] ml-[150px] ">
                   {" "}
                   2 Packages
                 </button>
+                <div className="smalltext mt-[330px]">
+                  <h1 className=" text- font-bold">France</h1>
+                  <p className="font-bold text-[12px]">Starting from $1800</p>
+                </div>
               </div>
             </div>
           </div>
@@ -112,11 +116,17 @@ const Destinations = () => {
                 />
               </div>
               <div className="absolute top-0 bg-gradient-to-b from-transparent via-transparent h-[200px] w-[300px] to-black">
-                <div className="placename flex justify-end p-2">
-                  <button className="bg-white py-1 text-black font-bold px-5 rounded-md shadow-md ">
+                <div className="placename flex flex-col justify-end p-2">
+                  <button className="bg-white py-1 text-black font-bold px-5 rounded-md shadow-md w-[130px] ml-[150px]  ">
                     {" "}
                     8 Packages
                   </button>
+                  <div className="smalltext mt-[110px]">
+                    <h1 className=" text- font-bold">Brazil</h1>
+                    <p className="font-bold text-[12px]">
+                      Starting from $11200
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -128,15 +138,19 @@ const Destinations = () => {
                 <img
                   className="h-[200px] w-[300px] object-cover"
                   src={Brasil_1}
-                  alt=""
+                  alt="brasil"
                 />
               </div>
               <div className=" absolute top-0 bg-gradient-to-b from-transparent via-transparent h-[200px] w-[300px] to-black">
-                <div className="placename flex justify-end p-2">
-                  <button className="bg-white py-1 text-black font-bold px-5 rounded-md shadow-md ">
+                <div className="placename flex flex-col justify-end p-2">
+                  <button className="bg-white py-1 text-black font-bold px-5 rounded-md shadow-md w-[130px] ml-[150px]">
                     {" "}
                     3 Packages
                   </button>
+                  <div className="smalltext mt-[110px]">
+                    <h1 className=" text- font-bold">Brazil</h1>
+                    <p className="font-bold text-[12px]">Starting from $1200</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -146,15 +160,19 @@ const Destinations = () => {
             data-aos="fade-right"
           >
             <div className="img ">
-              <img className="h-[423px] w-[300px]" src={london} alt="" />
+              <img className="h-[423px] w-[300px]" src={london} alt="london" />
             </div>
 
             <div className=" absolute top-0 bg-gradient-to-b from-transparent via-transparent h-[423px] w-[300px] to-black">
-              <div className="placename flex justify-end p-2">
-                <button className="bg-white py-1 text-black font-bold px-5 rounded-md shadow-md ">
+              <div className="placename flex flex-col justify-end p-2">
+                <button className="bg-white py-1 text-black font-bold px-5 rounded-md shadow-md w-[130px] ml-[150px]  ">
                   {" "}
                   3 Packages
                 </button>
+                <div className="smalltext mt-[330px]">
+                  <h1 className=" text- font-bold">London</h1>
+                  <p className="font-bold text-[12px]">Starting from $2200</p>
+                </div>
               </div>
             </div>
           </div>
